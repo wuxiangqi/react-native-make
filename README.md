@@ -6,9 +6,9 @@
 In your react-native project folder, run:
 
 ```bash
-yarn add -D @bam.tech/react-native-make
+yarn add -D haxibiao/react-native-make
 # OR
-npm i -D @bam.tech/react-native-make
+npm i -D haxibiao/react-native-make
 ```
 
 **Please note:** This plugin only supports react-native-cli v2+
@@ -30,8 +30,8 @@ You can get the list of available plugins by running `react-native -h` within yo
 - `cd react-native-make`
 - Run `yarn` then `yarn link`
 - Launch a new project with `react-native init`
-- In your React Native project, `yarn link @bam.tech/react-native-make`
-- In the package.json of your React Native project, in dependencies add "@bam.tech/react-native-make" : "0.0.0"
+- In your React Native project, `yarn link haxibiao/react-native-make`
+- In the package.json of your React Native project, in dependencies add "haxibiao/react-native-make" : "0.0.0"
 
 ## Changes in 3.0.0
 
@@ -39,7 +39,7 @@ Since 3.0.0, splashscreens for iOS are created via Xcode’s storyboard, so as t
 
 ## 👉 About Bam
 
-We are a 100 people company developing and designing multiplatform applications with [React Native](https://www.bam.tech/agence-react-native-paris) using the Lean & Agile methodology. To get more information on the solutions that would suit your needs, feel free to get in touch by [email](mailto://contact@bam.tech) or through or [contact form](https://www.bam.tech/en/contact)!
+We are a 100 people company developing and designing multiplatform applications with [React Native](https://www.bam.tech/agence-react-native-paris) using the Lean & Agile methodology. To get more information on the solutions that would suit your needs, feel free to get in touch by [email](mailto://contacthaxibiao) or through or [contact form](https://www.bam.tech/en/contact)!
 
 We will always answer you with pleasure 😁
 

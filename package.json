@@ -1,11 +1,11 @@
 {
-  "name": "@bam.tech/react-native-make",
+  "name": "haxibiao/react-native-make",
   "version": "3.0.1",
   "main": "modules/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bamlab/react-native-make"
+    "url": "https://github.com/haxibiao/react-native-make"
   },
   "keywords": [
     "react-native",
