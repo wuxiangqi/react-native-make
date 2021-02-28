@@ -17,7 +17,7 @@ export const addAndroidIcon = async (iconSource: string, backgroundColor: string
 
 const generateLegacyIcons = (iconSource: string) =>
   Promise.all(
-    config.androidIconSizes.map(size =>
+    config.androidIconSizes.map((size) =>
       generateResizedAssets(
         iconSource,
         `${ANDROID_MAIN_RES_PATH}/mipmap-${size.density}/ic_launcher.png`,
@@ -61,15 +61,21 @@ const generateAdaptiveIcons = (iconSource: string, backgroundColor: string) => {
   );
 
   return Promise.all(
-    config.androidIconSizes.map(size => generateAdaptiveIcon(iconSource, size.density, size.value))
+    config.androidIconSizes.map((size) =>
+      generateAdaptiveIcon(iconSource, size.density, size.value)
+    )
   );
 };
 
 const generateAdaptiveIcon = (iconSource: string, density: string, value: number) => {
-  const destinationDirectoryPath = `${ANDROID_MAIN_RES_PATH}/mipmap-${density}-v26`;
+  const destinationDirectoryPath = `${ANDROID_MAIN_RES_PATH}/mipmap-${density}`;
   copyFile(
     join(__dirname, `../../../../templates/android/mipmap/ic_launcher.xml`),
     `${destinationDirectoryPath}/ic_launcher.xml`
   );
-  return generateResizedAssets(iconSource, `${destinationDirectoryPath}/ic_foreground.png`, value);
+  return generateResizedAssets(
+    iconSource,
+    `${destinationDirectoryPath}/ic_launcher_round.png`,
+    value
+  );
 };
