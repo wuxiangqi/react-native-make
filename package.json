@@ -1,6 +1,6 @@
 {
   "name": "@haxibiao/react-native-make",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "main": "modules/index.js",
   "license": "MIT",
   "repository": {
@@ -20,9 +20,6 @@
     "test:types": "yarn tsc --noEmit",
     "test": "yarn test:types",
     "release": "release-it"
-  },
-  "bin": {
-    "react-native-make": "dist/modules/index.js"
   },
   "dependencies": {
     "color-string": "1.5.3",
