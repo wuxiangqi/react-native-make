@@ -1,6 +1,6 @@
 {
   "name": "@haxibiao/react-native-make",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "main": "modules/index.js",
   "license": "MIT",
   "repository": {
