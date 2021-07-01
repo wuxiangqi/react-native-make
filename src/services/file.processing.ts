@@ -19,7 +19,7 @@ export const applyPatch = (
   path: string,
   { patch, pattern }: { patch: string; pattern: string | RegExp }
 ) => {
-  if (!readFile(path).replace(/[\ +]|[\r\n]/g, "").includes(patch.replace(/[\ +]|[\r\n]/g, ""))) {
+  if (!readFile(path).replace(/[\ +]|[\s\t\r\n]/g, "").includes(patch.replace(/[\ +]|[\s\t\r\n]/g, ""))) {
     writeFileSync(path, readFileSync(path, 'utf8').replace(pattern, (match: any) => `${match}${patch}`));
   }
 };
