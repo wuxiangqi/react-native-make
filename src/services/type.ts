@@ -8,4 +8,5 @@ export enum EResizeMode {
   COVER = 'cover',
   CENTER = 'center',
   CONTAIN = 'contain',
+  FILL = 'fill',
 }

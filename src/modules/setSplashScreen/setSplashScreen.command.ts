@@ -20,7 +20,7 @@ export const setSplashScreenCommand: Command = {
     },
     {
       name: '--resize [string]',
-      description: 'contain, cover, center',
+      description: 'contain, cover, center, fill',
       default: EResizeMode.CONTAIN,
     },
     {
