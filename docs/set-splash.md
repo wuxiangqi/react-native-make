@@ -28,7 +28,8 @@ We offer 3 types of Splashcreen image resize modes:
 | ------------------: | ----------------------------------------------------------------- | ----------------------------------------------- |
 | (default) `contain` | Use max width / height without cropping,<br>The image is centered | <img src="./assets/splash-example.contain.png"> |
 |             `cover` | Use max width / height with cropping,<br>The image is centered    | <img src="./assets/splash-example.cover.png">   |
-|            `center` | Use image width / height,<br>The image is centered                | <img src="./assets/splash-example.center.png">  |
+|            `center` | Use image width / height,<br>The image is centered                | <img src="./assets/splash-example.center.png">
+|             `fill` | Use max width / height with cropping,<br>The image is centered    | <img src="./assets/splash-example.cover.png"> 
 
 ## Generate both splash screen
 
